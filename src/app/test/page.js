@@ -65,7 +65,7 @@ export default function Home() {
         {/* Animate chart containers with Motion.dev */}
         <motion.div
           id="bar-chart"
-          initial={{ opacity: 0, x: -50, scale: 0.9 }}
+          initial={{ opacity: 0, x: -100, scale: 0.9 }}
           animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         />
